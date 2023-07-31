@@ -1,0 +1,96 @@
+/* shreyasi(bestseller page) */
+.right_prdct_box {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  grid-template-rows: repeat(5, 1fr) !important;
+  grid-column-gap: 20px !important;
+  grid-row-gap: 60px !important;
+  margin-top: 50px;
+}
+.prdct_point:hover .prdct_overlay.prdct_info_overlay {
+  height: 34.5%;
+}
+a.cart-badge {
+  display: flex;
+  position: relative;
+}
+p.bagde {
+  color: red;
+  font-weight: bolder;
+  margin-top: -10px;
+  position: absolute;
+  right: -3px;
+  top: 2px;
+}
+
+/* 30.7.23 */
+.prdct_dtls_sec .img_otr {
+  border: 1px solid #9e9e9e;
+}
+.prdct_dtls_sec .sz_otr h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+  padding-bottom: 10px;
+}
+.prdct_dtls_sec .sz_otr .bx {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  text-transform: initial;
+}
+.hdr_mn_otr {
+  background-color: #e6e60b !important;
+}
+header .inpt_bx .inpt_bx_inr {
+  border: 1px solid #0000ff !important;
+}
+header .inpt_bx input[type="text"] {
+  color: #0000ff !important;
+}
+header .inpt_bx input[type="submit"] {
+  color: #0000ff !important;
+  background: transparent !important;
+  background-position: center !important;
+}
+
+.footer_box .cmn_hdr h4 {
+  color: #0000ff !important;
+}
+.footer_box .cmn_hdr ul li a {
+  color: #0000ff !important;
+}
+.cmn_footr {
+  background-color: #e6e60b !important;
+}
+.ad_bg,
+.cmn_btn {
+  color: #0000ff !important;
+  border: 1px solid #0000ff !important;
+  background-color: #e6e60b !important;
+}
+.bnr_sec .img_otr {
+  background-image: none !important;
+}
+.bnr_sec .img_otr a {
+  display: block;
+  height: 100%;
+}
+.bnr_sec .img_otr a img {
+  height: auto;
+}
+.right_article {
+  padding-top: 30px;
+}
+.df.df-ltst {
+  display: block;
+}
+.df.df-ltst p button {
+  padding: 3px 7px;
+}
+.re {
+  padding: 15px 25px;
+}
+.wshlst.cmn_btn {
+  width: 35%;
+}
